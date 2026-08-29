@@ -30,7 +30,7 @@ n7.addEventListener("click", function () { addNumero("7") });
 n8.addEventListener("click", function () { addNumero("8") });
 n9.addEventListener("click", function () { addNumero("9") });
 apaga.addEventListener("click", function () { addNumero("") });
-virgula.addEventListener("click", function () { addNumero(",") });
+virgula.addEventListener("click", function () { addNumero(".") });
 
 mais.addEventListener("click", function () { addNumero("+") });
 menos.addEventListener("click", function () { addNumero("-") });
