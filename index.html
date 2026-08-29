@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Aquila Fernando Alves Silva">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
     <title>Calculadora</title>
 </head>
-<body>  
+
+<body>
     <div class="calculadora">
         <div class="container">
             <div class="display">
-                <output id="display"></output>
+                <input id="display" type="text" dir="rtl" value="0" class="output"></input>
                 <div>
-                    <button id="Resultado" value="Resultado">Apagar</button>
-                    <button id="Apagar" value="resultado">Resultado</button>
+                    <button id="apagar">⌫</button>
+                    <button id="resultado">Resultado</button>
                 </div>
             </div>
             <div class="num">
@@ -32,33 +35,30 @@
                 <div>
                     <button id="1">1</button>
                     <button id="2">2</button>
-                    <button id="3">3</button>                    
+                    <button id="3">3</button>
                 </div>
 
                 <div>
                     <button id="0">0</button>
+                    <button id="virgula">,</button>
                 </div>
                 <div>
-                    <button>+</button>
-                    <button>-</button>
-                    <button>*</button>
-                    <button>/</button>
+                    <button id="mais">+</button>
+                    <button id="menos">-</button>
+                    <button id="mult">*</button>
+                    <button id="divisao">/</button>
                 </div>
 
 
-
-
-
-                
-                
             </div>
-            
+
 
         </div>
 
-    </div> 
+    </div>
 
-<script src="js/script.js"></script>
+
 
 </body>
+
 </html>
